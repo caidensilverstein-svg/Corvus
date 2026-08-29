@@ -15,6 +15,9 @@ from dataclasses import dataclass
 from enum import Enum, auto
 from typing import Optional
 
+# Skip sudo when already running as root (e.g. inside Docker containers)
+_SUDO = [] if os.getuid() == 0 else ["sudo"]
+
 from rich.console import Console
 from rich.prompt import Prompt
 
@@ -51,15 +54,15 @@ def _build_install_cmd(pm: str, package: str, replace: bool = False) -> list[str
     """Return the shell command list to install a package."""
     if pm == "apt":
         if replace:
-            return ["sudo", "apt-get", "install", "-y", "--reinstall", package]
-        return ["sudo", "apt-get", "install", "-y", package]
+            return _SUDO + ["apt-get", "install", "-y", "--reinstall", package]
+        return _SUDO + ["apt-get", "install", "-y", package]
     if pm == "pacman":
         if replace:
             # --overwrite '*' forces file conflicts to be overwritten
-            return ["sudo", "pacman", "-S", "--noconfirm", "--overwrite", "*", package]
-        return ["sudo", "pacman", "-S", "--noconfirm", package]
+            return _SUDO + ["pacman", "-S", "--noconfirm", "--overwrite", "*", package]
+        return _SUDO + ["pacman", "-S", "--noconfirm", package]
     if pm == "dnf":
-        return ["sudo", "dnf", "install", "-y", package]
+        return _SUDO + ["dnf", "install", "-y", package]
     if pm == "brew":
         return ["brew", "install", package]
     raise ValueError(f"Unknown package manager: {pm}")
