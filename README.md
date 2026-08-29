@@ -9,6 +9,7 @@ Cross-distro Kali Linux tool installer. Detects your OS and package manager, wal
 | Kali / Ubuntu / Debian | `apt` |
 | Arch / Manjaro | `pacman` |
 | Fedora / RHEL / CentOS | `dnf` |
+| OpenSUSE / Tumbleweed | `zypper` |
 | macOS | `brew` |
 
 ## Install
