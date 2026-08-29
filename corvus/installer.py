@@ -9,9 +9,9 @@ Flow per tool:
   4. On other failure → mark failed with captured stderr.
 """
 
+import os
 import subprocess
-import sys
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from enum import Enum, auto
 from typing import Optional
 
@@ -39,8 +39,8 @@ class ConflictChoice(Enum):
 
 @dataclass
 class InstallResult:
-    tool: str
-    package: str
+    tool: str       # canonical tool name (always the ToolEntry.name)
+    package: str    # distro-specific package name
     status: InstallStatus
     reason: str = ""
 
@@ -49,23 +49,20 @@ class InstallResult:
 
 def _build_install_cmd(pm: str, package: str, replace: bool = False) -> list[str]:
     """Return the shell command list to install a package."""
-    base = {
-        "apt": ["sudo", "apt-get", "install", "-y"],
-        "pacman": ["sudo", "pacman", "-S", "--noconfirm"],
-        "dnf": ["sudo", "dnf", "install", "-y"],
-        "brew": ["brew", "install"],
-    }
-    cmd = base.get(pm, [])
-    if not cmd:
-        raise ValueError(f"Unknown package manager: {pm}")
-
-    if replace:
-        if pm == "apt":
-            cmd = ["sudo", "apt-get", "install", "-y", "--reinstall"]
-        elif pm == "pacman":
-            cmd = ["sudo", "pacman", "-S", "--noconfirm"]
-
-    return cmd + [package]
+    if pm == "apt":
+        if replace:
+            return ["sudo", "apt-get", "install", "-y", "--reinstall", package]
+        return ["sudo", "apt-get", "install", "-y", package]
+    if pm == "pacman":
+        if replace:
+            # --overwrite '*' forces file conflicts to be overwritten
+            return ["sudo", "pacman", "-S", "--noconfirm", "--overwrite", "*", package]
+        return ["sudo", "pacman", "-S", "--noconfirm", package]
+    if pm == "dnf":
+        return ["sudo", "dnf", "install", "-y", package]
+    if pm == "brew":
+        return ["brew", "install", package]
+    raise ValueError(f"Unknown package manager: {pm}")
 
 
 def _is_conflict_error(stderr: str, pm: str) -> bool:
@@ -83,12 +80,11 @@ def _is_conflict_error(stderr: str, pm: str) -> bool:
         ],
         "dnf": [
             "conflicts",
-            "conflict",
             "protected multilib versions",
         ],
         "brew": [
-            "already installed",
             "conflicts with",
+            # "already installed" is intentionally excluded — it's a no-op, not a conflict
         ],
     }
     signals = conflict_signals.get(pm, [])
@@ -105,7 +101,7 @@ def _prompt_conflict(tool: str, package: str, stderr: str) -> ConflictChoice:
     """
     console.print()
     console.print(f"[bold yellow]Conflict detected while installing [cyan]{tool}[/cyan][/bold yellow]")
-    console.print(f"[dim]{stderr.strip()[-600:]}[/dim]")  # last 600 chars of error
+    console.print(f"[dim]{stderr.strip()[-600:]}[/dim]")
     console.print()
     console.print("How would you like to resolve this?")
     console.print("  [bold](K)[/bold]eep existing packages, skip this tool")
@@ -152,7 +148,7 @@ def install_tool(tool: ToolEntry, info: SystemInfo, dry_run: bool = False) -> In
         return InstallResult(tool=tool.name, package=package, status=InstallStatus.SUCCESS, reason="dry-run")
 
     # First attempt
-    result = _run_install(pm, package, replace=False)
+    result = _run_install(tool.name, pm, package, replace=False)
     if result.status == InstallStatus.SUCCESS:
         return result
 
@@ -160,7 +156,7 @@ def install_tool(tool: ToolEntry, info: SystemInfo, dry_run: bool = False) -> In
     if result.status == InstallStatus.FAILED and _is_conflict_error(result.reason, pm):
         choice = _prompt_conflict(tool.name, package, result.reason)
 
-        if choice == ConflictChoice.SKIP or choice == ConflictChoice.KEEP:
+        if choice in (ConflictChoice.SKIP, ConflictChoice.KEEP):
             return InstallResult(
                 tool=tool.name,
                 package=package,
@@ -169,23 +165,21 @@ def install_tool(tool: ToolEntry, info: SystemInfo, dry_run: bool = False) -> In
             )
 
         if choice == ConflictChoice.REPLACE:
-            result = _run_install(pm, package, replace=True)
+            result = _run_install(tool.name, pm, package, replace=True)
             return result
 
     return result
 
 
-def _run_install(pm: str, package: str, replace: bool) -> InstallResult:
+def _run_install(tool_name: str, pm: str, package: str, replace: bool) -> InstallResult:
     """Execute the install command and capture output."""
     try:
         cmd = _build_install_cmd(pm, package, replace=replace)
     except ValueError as e:
-        return InstallResult(
-            tool=package,
-            package=package,
-            status=InstallStatus.FAILED,
-            reason=str(e),
-        )
+        return InstallResult(tool=tool_name, package=package, status=InstallStatus.FAILED, reason=str(e))
+
+    # Prevent apt interactive prompts from hanging the subprocess
+    env = {**os.environ, "DEBIAN_FRONTEND": "noninteractive"}
 
     try:
         proc = subprocess.run(
@@ -193,27 +187,28 @@ def _run_install(pm: str, package: str, replace: bool) -> InstallResult:
             capture_output=True,
             text=True,
             timeout=300,  # 5-minute cap per tool
+            env=env,
         )
     except subprocess.TimeoutExpired:
         return InstallResult(
-            tool=package,
+            tool=tool_name,
             package=package,
             status=InstallStatus.FAILED,
             reason="Install timed out after 5 minutes",
         )
     except FileNotFoundError:
         return InstallResult(
-            tool=package,
+            tool=tool_name,
             package=package,
             status=InstallStatus.FAILED,
             reason=f"Package manager '{pm}' not found on PATH",
         )
 
     if proc.returncode == 0:
-        return InstallResult(tool=package, package=package, status=InstallStatus.SUCCESS)
+        return InstallResult(tool=tool_name, package=package, status=InstallStatus.SUCCESS)
 
     return InstallResult(
-        tool=package,
+        tool=tool_name,
         package=package,
         status=InstallStatus.FAILED,
         reason=(proc.stderr or proc.stdout).strip(),

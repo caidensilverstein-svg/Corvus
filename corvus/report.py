@@ -5,7 +5,6 @@ Writes a structured summary to ~/.corvus/last_report.txt and prints
 a formatted version to the terminal via rich.
 """
 
-import os
 from datetime import datetime
 from pathlib import Path
 

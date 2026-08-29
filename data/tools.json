@@ -1,0 +1,7999 @@
+[
+  {
+    "name": "0trace",
+    "description": "traceroute tool that can run within an existing TCP connection",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "0trace",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "above",
+    "description": "Network security sniffer for finding vulnerabilities in the network",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "above",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "adaptixc2",
+    "description": "extensible post-exploitation and adversarial emulation framework",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "adaptixc2",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "afflib",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "afflib",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "aflplusplus",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "aflplusplus",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "aircrack-ng",
+    "description": "wireless WEP/WPA cracking utilities",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "aircrack-ng",
+      "pacman": "aircrack-ng",
+      "dnf": "aircrack-ng",
+      "brew": "aircrack-ng"
+    }
+  },
+  {
+    "name": "airgeddon",
+    "description": "multi-use bash script for Linux systems to audit wireless networks",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "airgeddon",
+      "pacman": "airgeddon",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "amass",
+    "description": "In-depth DNS Enumeration and Network Mapping",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "amass",
+      "pacman": "amass",
+      "dnf": null,
+      "brew": "amass"
+    }
+  },
+  {
+    "name": "apache-users",
+    "description": "Enumerate usernames on systems with Apache UserDir module",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "apache-users",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "apktool",
+    "description": "tool for reverse engineering Android apk files",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "apktool",
+      "pacman": "apktool",
+      "dnf": null,
+      "brew": "apktool"
+    }
+  },
+  {
+    "name": "arjun",
+    "description": "HTTP parameter discovery suite",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "arjun",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "armitage",
+    "description": "Cyber attack management for Metasploit",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "armitage",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "arping",
+    "description": "sends IP and/or ARP pings (to the MAC address)",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "arping",
+      "pacman": "arping",
+      "dnf": "iputils",
+      "brew": null
+    }
+  },
+  {
+    "name": "arpwatch",
+    "description": "Ethernet/FDDI station activity monitor",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "arpwatch",
+      "pacman": "arpwatch",
+      "dnf": "arpwatch",
+      "brew": null
+    }
+  },
+  {
+    "name": "arsenal-ng",
+    "description": "Go-based command library equipped with 200+ cybersecurity cheat-sheets",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "arsenal-ng",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "asleap",
+    "description": "A tool for exploiting Cisco LEAP networks",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "asleap",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "assetfinder",
+    "description": "Find domains and subdomains related to a given domain",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "assetfinder",
+      "pacman": "assetfinder",
+      "dnf": null,
+      "brew": "assetfinder"
+    }
+  },
+  {
+    "name": "autopsy",
+    "description": "graphical interface to SleuthKit",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "autopsy",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "autorecon",
+    "description": "Multi-threaded network reconnaissance tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "autorecon",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "azurehound",
+    "description": "BloodHound data collector for Microsoft Azure (program)",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "azurehound",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "backdoor-factory",
+    "description": "Patch 32/64 bits ELF & win32/64 binaries with shellcode",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "backdoor-factory",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "bed",
+    "description": "A network protocol fuzzer",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "bed",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "beef-xss",
+    "description": "Browser Exploitation Framework (BeEF)",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "beef-xss",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "bettercap",
+    "description": "Complete, modular, portable and easily extensible MITM framework",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "bettercap",
+      "pacman": "bettercap",
+      "dnf": null,
+      "brew": "bettercap"
+    }
+  },
+  {
+    "name": "binwalk",
+    "description": "tool library for analyzing binary blobs and executable code",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "binwalk",
+      "pacman": "binwalk",
+      "dnf": null,
+      "brew": "binwalk"
+    }
+  },
+  {
+    "name": "binwalk3",
+    "description": "tool library for analyzing binary blobs and executable code",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "binwalk3",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "bloodhound",
+    "description": "Six Degrees of Domain Admin, BloodHound CE",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "bloodhound",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "bloodhound-ce-python",
+    "description": "Python based ingestor for BloodHound CE",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "bloodhound-ce-python",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "bloodyad",
+    "description": "Active Directory privilege escalation framework",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "bloodyad",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "bluelog",
+    "description": "Bluetooth scanner and logger",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "bluelog",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "blueranger",
+    "description": "Simple Bash script to locate Bluetooth devices",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "blueranger",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "bluesnarfer",
+    "description": "Bluesnarfing utility",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "bluesnarfer",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "bopscrk",
+    "description": "Generate smart and powerful wordlists",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "bopscrk",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "braa",
+    "description": "Mass SNMP scanner",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "braa",
+      "pacman": "braa",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "btscanner",
+    "description": "ncurses-based scanner for Bluetooth devices",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "btscanner",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "bulk-extractor",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "bulk-extractor",
+      "pacman": "bulk_extractor",
+      "dnf": null,
+      "brew": "bulk_extractor"
+    }
+  },
+  {
+    "name": "bully",
+    "description": "Implementation of the WPS brute force attack, written in C",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "bully",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "burpsuite",
+    "description": "platform for security testing of web applications",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "burpsuite",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "bytecode-viewer",
+    "description": "Java 8+ Jar & Android APK Reverse Engineering Suite",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "bytecode-viewer",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "cadaver",
+    "description": "command-line WebDAV client",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "cadaver",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "caido",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "caido",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "caido-cli",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "caido-cli",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "capstone",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "capstone",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "ccrypt",
+    "description": "secure encryption and decryption of files and streams",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "ccrypt",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "cewl",
+    "description": "custom word list generator",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "cewl",
+      "pacman": "cewl",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "cherrytree",
+    "description": "hierarchical note taking application",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "cherrytree",
+      "pacman": "cherrytree",
+      "dnf": "cherrytree",
+      "brew": null
+    }
+  },
+  {
+    "name": "chirp",
+    "description": "Configuration tool for amateur radios",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "chirp",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "chisel",
+    "description": "fast TCP/UDP tunnel over HTTP (program)",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "chisel",
+      "pacman": "chisel",
+      "dnf": null,
+      "brew": "chisel"
+    }
+  },
+  {
+    "name": "chisel-common-binaries",
+    "description": "Prebuilt binaries for chisel",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "chisel-common-binaries",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "chkrootkit",
+    "description": "rootkit detector",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "chkrootkit",
+      "pacman": "chkrootkit",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "chntpw",
+    "description": "NT SAM password recovery utility",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "chntpw",
+      "pacman": "chntpw",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "cisco-auditing-tool",
+    "description": "Scans Cisco routers for vulnerabilities",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "cisco-auditing-tool",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "cisco-global-exploiter",
+    "description": "Simple and fast Cisco exploitation tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "cisco-global-exploiter",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "cisco-ocs",
+    "description": "Mass Cisco scanner",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "cisco-ocs",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "cisco-torch",
+    "description": "Cisco device scanner",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "cisco-torch",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "cmospwd",
+    "description": "decrypt BIOS passwords from CMOS",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "cmospwd",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "code-oss",
+    "description": "Open Source package of vscode",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "code-oss",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "commix",
+    "description": "Automated All-in-One OS Command Injection and Exploitation Tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "commix",
+      "pacman": "commix",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "copy-router-config",
+    "description": "Copies Cisco configs via SNMP",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "copy-router-config",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "cowpatty",
+    "description": "Brute-force WPA dictionary attack",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "cowpatty",
+      "pacman": "cowpatty",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "crackle",
+    "description": "Crack and decrypt BLE encryption",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "crackle",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "crackmapexec",
+    "description": "Swiss army knife for pentesting networks",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "crackmapexec",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "creddump7",
+    "description": "Python tool to extract credentials and secrets from Windows registry hives",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "creddump7",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "crlfuzz",
+    "description": "Fast tool to scan CRLF vulnerability written in Go",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "crlfuzz",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "crowbar",
+    "description": "Brute forcing tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "crowbar",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "crunch",
+    "description": "tool for creating wordlist",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "crunch",
+      "pacman": "crunch",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "cutycapt",
+    "description": "utility to capture WebKit's rendering of a web page",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "cutycapt",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "cymothoa",
+    "description": "Stealth backdooring tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "cymothoa",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "darkstat",
+    "description": "network traffic analyzer",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "darkstat",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "davtest",
+    "description": "Testing tool for WebDAV servers",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "davtest",
+      "pacman": "davtest",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "dbd",
+    "description": "Netcat clone with encryption",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "dbd",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "dc3dd",
+    "description": "patched version of GNU dd with forensic features",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "dc3dd",
+      "pacman": "dc3dd",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "dcfldd",
+    "description": "enhanced version of dd for forensics and security",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "dcfldd",
+      "pacman": "dcfldd",
+      "dnf": "dcfldd",
+      "brew": null
+    }
+  },
+  {
+    "name": "ddrescue",
+    "description": "data recovery and protection tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "ddrescue",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "defectdojo",
+    "description": "security orchestration and vulnerability management platform",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "defectdojo",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "dex2jar",
+    "description": "Tools to work with android .dex and java .class files",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "dex2jar",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "dhcpig",
+    "description": "DHCP exhaustion script using scapy network library",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "dhcpig",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "dirb",
+    "description": "URL bruteforcing tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "dirb",
+      "pacman": "dirb",
+      "dnf": null,
+      "brew": "dirb"
+    }
+  },
+  {
+    "name": "dirbuster",
+    "description": "Web server directory brute-forcer",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "dirbuster",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "dirsearch",
+    "description": "Web path scanner",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "dirsearch",
+      "pacman": "dirsearch",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "dmitry",
+    "description": "Deepmagic Information Gathering Tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "dmitry",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "dns2tcp",
+    "description": "TCP-over-DNS tunnel server and client",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "dns2tcp",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "dnscat2",
+    "description": "DNS tunnel (metapackage)",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "dnscat2",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "dnschef",
+    "description": "DNS proxy for penetration testers",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "dnschef",
+      "pacman": "dnschef",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "dnsenum",
+    "description": "tool to enumerate domain DNS information",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "dnsenum",
+      "pacman": "dnsenum",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "dnsmap",
+    "description": "DNS domain name brute forcing tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "dnsmap",
+      "pacman": "dnsmap",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "dnsrecon",
+    "description": "Powerful DNS enumeration script",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "dnsrecon",
+      "pacman": "dnsrecon",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "dnstracer",
+    "description": "trace DNS queries to the source",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "dnstracer",
+      "pacman": "dnstracer",
+      "dnf": "dnstracer",
+      "brew": null
+    }
+  },
+  {
+    "name": "dnswalk",
+    "description": "Checks dns zone information using nameserver lookups",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "dnswalk",
+      "pacman": "dnswalk",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "donut-shellcode",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "donut-shellcode",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "dradis",
+    "description": "Collaboration tools for penetration testing",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "dradis",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "driftnet",
+    "description": "picks out and displays images from network traffic",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "driftnet",
+      "pacman": "driftnet",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "dsniff",
+    "description": "Various tools to sniff network traffic for cleartext insecurities",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "dsniff",
+      "pacman": "dsniff",
+      "dnf": "dsniff",
+      "brew": "dsniff"
+    }
+  },
+  {
+    "name": "dvwa",
+    "description": "Damn Vulnerable Web Application",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "dvwa",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "eapmd5pass",
+    "description": "Tool for extracting and cracking EAP-MD5",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "eapmd5pass",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "edb-debugger",
+    "description": "cross platform x86/x86-64 debugger",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "edb-debugger",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "email2phonenumber",
+    "description": "OSINT tool to obtain a target's phone number by having their email address",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "email2phonenumber",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "emailharvester",
+    "description": "Email addresses harvester",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "emailharvester",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "enum4linux",
+    "description": "Enumerates info from Windows and Samba systems",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "enum4linux",
+      "pacman": "enum4linux",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "enum4linux-ng",
+    "description": "Next generation version of enum4linux",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "enum4linux-ng",
+      "pacman": "enum4linux-ng",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "enumiax",
+    "description": "IAX protocol username enumerator",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "enumiax",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "ettercap",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "ettercap",
+      "pacman": "ettercap",
+      "dnf": "ettercap",
+      "brew": null
+    }
+  },
+  {
+    "name": "evil-winrm",
+    "description": "ultimate WinRM shell for hacking/pentesting",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "evil-winrm",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "evil-winrm-py",
+    "description": "Execute commands on remote Windows machines using WinRM",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "evil-winrm-py",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "evilginx2",
+    "description": "man-in-the-middle attack framework",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "evilginx2",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "exe2hexbat",
+    "description": "Convert EXE to bat",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "exe2hexbat",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "exploitdb",
+    "description": "Searchable Exploit Database archive",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "exploitdb",
+      "pacman": "exploitdb",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "exploitdb-papers",
+    "description": "The Exploit Database's archive of papers & ezines",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "exploitdb-papers",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "ext3grep",
+    "description": "tool to help recover deleted files on ext3 filesystems",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "ext3grep",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "ext4magic",
+    "description": "recover deleted files from ext3 or ext4 partitions",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "ext4magic",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "extundelete",
+    "description": "utility to recover deleted files from ext3/ext4 partition",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "extundelete",
+      "pacman": "extundelete",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "eyewitness",
+    "description": "Rapid web application triage tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "eyewitness",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "fcrackzip",
+    "description": "password cracker for zip archives",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "fcrackzip",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "fern-wifi-cracker",
+    "description": "Automated Wi-Fi cracker",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "fern-wifi-cracker",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "feroxbuster",
+    "description": "fast, simple, recursive content discovery tool written in Rust",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "feroxbuster",
+      "pacman": "feroxbuster",
+      "dnf": null,
+      "brew": "feroxbuster"
+    }
+  },
+  {
+    "name": "ferret-sidejack",
+    "description": "Monitors data and extracts interesting data",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "ferret-sidejack",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "ffuf",
+    "description": "Fast web fuzzer written in Go (program)",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "ffuf",
+      "pacman": "ffuf",
+      "dnf": null,
+      "brew": "ffuf"
+    }
+  },
+  {
+    "name": "fierce",
+    "description": "Domain DNS scanner",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "fierce",
+      "pacman": "fierce",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "fiked",
+    "description": "Cisco VPN attack tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "fiked",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "finalrecon",
+    "description": "fast and simple Python script for web reconnaissance",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "finalrecon",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "findomain",
+    "description": "Fastest and most complete solution for domain recognition",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "findomain",
+      "pacman": "findomain",
+      "dnf": null,
+      "brew": "findomain"
+    }
+  },
+  {
+    "name": "firewalk",
+    "description": "active reconnaissance network security tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "firewalk",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "fluxion",
+    "description": "security auditing and social-engineering research tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "fluxion",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "foremost",
+    "description": "forensic program to recover lost files",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "foremost",
+      "pacman": "foremost",
+      "dnf": "foremost",
+      "brew": null
+    }
+  },
+  {
+    "name": "fping",
+    "description": "sends ICMP ECHO_REQUEST packets to network hosts",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "fping",
+      "pacman": "fping",
+      "dnf": "fping",
+      "brew": "fping"
+    }
+  },
+  {
+    "name": "fragrouter",
+    "description": "IDS evasion toolkit",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "fragrouter",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "freeradius",
+    "description": "high-performance and highly configurable RADIUS server",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "freeradius",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "freerdp3",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "freerdp3",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "ftester",
+    "description": "Tool for testing firewalls and Intrusion Detection System (IDS)",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "ftester",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "galleta",
+    "description": "Internet Explorer cookie forensic analysis tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "galleta",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "gdb",
+    "description": "GNU Debugger",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "gdb",
+      "pacman": "gdb",
+      "dnf": "gdb",
+      "brew": "gdb"
+    }
+  },
+  {
+    "name": "gef",
+    "description": "modern experience for GDB with advanced debugging capabilities",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "gef",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "gemini-cli",
+    "description": "open-source AI agent",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "gemini-cli",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "ghidra",
+    "description": "Software Reverse Engineering Framework",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "ghidra",
+      "pacman": "ghidra",
+      "dnf": null,
+      "brew": "ghidra"
+    }
+  },
+  {
+    "name": "gitxray",
+    "description": "Scan GitHub repositories and contributors to collect data",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "gitxray",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "gnuradio",
+    "description": "GNU Radio Software Radio Toolkit",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "gnuradio",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "gobuster",
+    "description": "high-performance discovery tool for directories, DNS and cloud storage",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "gobuster",
+      "pacman": "gobuster",
+      "dnf": null,
+      "brew": "gobuster"
+    }
+  },
+  {
+    "name": "goldeneye",
+    "description": "HTTP DoS test tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "goldeneye",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "gophish",
+    "description": "Open-Source Phishing Toolkit",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "gophish",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "goshs",
+    "description": "SimpleHTTPServer written in Go",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "goshs",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "gospider",
+    "description": "Fast web spider written in Go",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "gospider",
+      "pacman": "gospider",
+      "dnf": null,
+      "brew": "gospider"
+    }
+  },
+  {
+    "name": "gqrx-sdr",
+    "description": "Software defined radio receiver",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "gqrx-sdr",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "grokevt",
+    "description": "scripts for reading Microsoft Windows event log files",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "grokevt",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "guymager",
+    "description": "Forensic imaging tool based on Qt",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "guymager",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "gvm",
+    "description": "remote network security auditor - metapackage and useful scripts",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "gvm",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "hackrf",
+    "description": "Software defined radio peripheral - utilities",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "hackrf",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "hamster-sidejack",
+    "description": "Sidejacking tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "hamster-sidejack",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "hash-identifier",
+    "description": "Tool to identify hash types",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "hash-identifier",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "hashcat",
+    "description": "World's fastest and most advanced password recovery utility",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "hashcat",
+      "pacman": "hashcat",
+      "dnf": "hashcat",
+      "brew": "hashcat"
+    }
+  },
+  {
+    "name": "hashdeep",
+    "description": "recursively compute hashsums or piecewise hashings",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "hashdeep",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "hashid",
+    "description": "Identify the different types of hashes used to encrypt data",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "hashid",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "havoc",
+    "description": "Modern and malleable post-exploitation C2 framework",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "havoc",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "heartleech",
+    "description": "Scanner detecting systems vulnerable to the heartbleed OpenSSL bug",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "heartleech",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "hexinject",
+    "description": "Versatile packet injector and sniffer",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "hexinject",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "hexstrike-ai",
+    "description": "AI-Powered MCP Cybersecurity Automation Platform",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "hexstrike-ai",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "hexwalk",
+    "description": "Hex analyzer, editor and viewer",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "hexwalk",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "hoaxshell",
+    "description": "Windows reverse shell payload generator and handler that abuses http(s)",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "hoaxshell",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "hping3",
+    "description": "Active Network Smashing Tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "hping3",
+      "pacman": "hping",
+      "dnf": null,
+      "brew": "hping"
+    }
+  },
+  {
+    "name": "httrack",
+    "description": "Copy websites to your computer (Offline browser)",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "httrack",
+      "pacman": "httrack",
+      "dnf": "httrack",
+      "brew": "httrack"
+    }
+  },
+  {
+    "name": "hydra",
+    "description": "very fast network logon cracker",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "hydra",
+      "pacman": "hydra",
+      "dnf": null,
+      "brew": "hydra"
+    }
+  },
+  {
+    "name": "iaxflood",
+    "description": "VoIP flooder tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "iaxflood",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "ike-scan",
+    "description": "discover and fingerprint IKE hosts (IPsec VPN Servers)",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "ike-scan",
+      "pacman": "ike-scan",
+      "dnf": null,
+      "brew": "ike-scan"
+    }
+  },
+  {
+    "name": "impacket-scripts",
+    "description": "Links to useful impacket scripts examples",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "impacket-scripts",
+      "pacman": "impacket",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "instaloader",
+    "description": "Instagram automatic photo downloader",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "instaloader",
+      "pacman": "python-instaloader",
+      "dnf": null,
+      "brew": "instaloader"
+    }
+  },
+  {
+    "name": "intrace",
+    "description": "Traceroute-like application piggybacking on existing TCP connections",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "intrace",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "inviteflood",
+    "description": "SIP/SDP INVITE message flooding over UDP/IP",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "inviteflood",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "iodine",
+    "description": "tool for tunneling IPv4 data through a DNS server",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "iodine",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "irpas",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "irpas",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "isr-evilgrade",
+    "description": "Evilgrade framework",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "isr-evilgrade",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "jadx",
+    "description": "Dex to Java decompiler",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "jadx",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "javasnoop",
+    "description": "Intercept Java applications locally",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "javasnoop",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "jboss-autopwn",
+    "description": "JBoss script for obtaining remote shell access",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "jboss-autopwn",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "jd-gui",
+    "description": "GUI Java .class decompiler",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "jd-gui",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "john",
+    "description": "active password cracking tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "john",
+      "pacman": "john",
+      "dnf": "john",
+      "brew": "john"
+    }
+  },
+  {
+    "name": "johnny",
+    "description": "GUI for John the Ripper",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "johnny",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "joomscan",
+    "description": "OWASP Joomla Vulnerability Scanner Project",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "joomscan",
+      "pacman": "joomscan",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "jsql",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "jsql",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "juice-shop",
+    "description": "insecure web application",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "juice-shop",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-above",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-above",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-adaptixclient",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-adaptixclient",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-adaptixserver",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-adaptixserver",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-affcat",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-affcat",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-afl-fuzz",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-afl-fuzz",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-aircrack-ng",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-aircrack-ng",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-airgeddon",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-airgeddon",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-amass",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-amass",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-apache-users",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-apache-users",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-apktool",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-apktool",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-arjun",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-arjun",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-armitage",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-armitage",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-arping",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-arping",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-arpspoof",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-arpspoof",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-arsenal-ng",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-arsenal-ng",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-asleap",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-asleap",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-autopsy",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-autopsy",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-autorecon",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-autorecon",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-backdoor-factory",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-backdoor-factory",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-bed",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-bed",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-beef-xss-start",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-beef-xss-start",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-beef-xss-stop",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-beef-xss-stop",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-bettercap",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-bettercap",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-binwalk",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-binwalk",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-blkcalc",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-blkcalc",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-blkcat",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-blkcat",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-blkls",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-blkls",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-blkstat",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-blkstat",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-bloodhound",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-bloodhound",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-bloodhound-ce-python",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-bloodhound-ce-python",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-bloodhound-python",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-bloodhound-python",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-bloodyad",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-bloodyad",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-bluesnarfer",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-bluesnarfer",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-bopscrk",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-bopscrk",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-bully",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-bully",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-burpsuite",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-burpsuite",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-bytecode-viewer",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-bytecode-viewer",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-cadaver",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-cadaver",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-caido",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-caido",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-caido-cli",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-caido-cli",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-cewl",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-cewl",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-chisel",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-chisel",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-chisel-common-binaries",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-chisel-common-binaries",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-chkrootkit",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-chkrootkit",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-chntpw",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-chntpw",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-clang",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-clang",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-code-oss",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-code-oss",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-commix",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-commix",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-cowpatty",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-cowpatty",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-crackmapexec",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-crackmapexec",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-crunch",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-crunch",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-cstool",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-cstool",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-cutycapt",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-cutycapt",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-davtest",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-davtest",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-dbd",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-dbd",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-defectdojo-start",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-defectdojo-start",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-defectdojo-stop",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-defectdojo-stop",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-dirb",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-dirb",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-dirbuster",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-dirbuster",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-dirsearch",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-dirsearch",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-dmitry",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-dmitry",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-dns-rebind",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-dns-rebind",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-dnschef",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-dnschef",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-dnsenum",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-dnsenum",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-dnsmap",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-dnsmap",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-dnsrecon",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-dnsrecon",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-donut",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-donut",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-dradis-start",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-dradis-start",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-dradis-stop",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-dradis-stop",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-driftnet",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-driftnet",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-dsniff",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-dsniff",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-dvwa-start",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-dvwa-start",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-dvwa-stop",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-dvwa-stop",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-edb",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-edb",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-ettercap",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-ettercap",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-evil-winrm",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-evil-winrm",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-evil-winrm-py",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-evil-winrm-py",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-exploitdb-papers",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-exploitdb-papers",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-eyewitness",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-eyewitness",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-faraday-start",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-faraday-start",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-faraday-stop",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-faraday-stop",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-fern-wifi-cracker",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-fern-wifi-cracker",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-feroxbuster",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-feroxbuster",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-ferret-sidejack",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-ferret-sidejack",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-ffind",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-ffind",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-ffuf",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-ffuf",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-fierce",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-fierce",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-findomain",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-findomain",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-fls",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-fls",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-fluxion",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-fluxion",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-foremost",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-foremost",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-fping",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-fping",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-fsstat",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-fsstat",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-galleta",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-galleta",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-gdb",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-gdb",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-gef",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-gef",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-gemini-cli",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-gemini-cli",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-ghidra",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-ghidra",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-gitxray",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-gitxray",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-gobuster",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-gobuster",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-goldeneye",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-goldeneye",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-gophish-start",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-gophish-start",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-gophish-stop",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-gophish-stop",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-goshs",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-goshs",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-gqrx",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-gqrx",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-guymager",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-guymager",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-gvm-check-setup",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-gvm-check-setup",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-gvm-setup",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-gvm-setup",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-gvm-start",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-gvm-start",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-gvm-stop",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-gvm-stop",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-hamster-sidejack",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-hamster-sidejack",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-hash-identifier",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-hash-identifier",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-hashcat",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-hashcat",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-hashdeep",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-hashdeep",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-hashid",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-hashid",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-havoc",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-havoc",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-hexwalk",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-hexwalk",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-hfind",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-hfind",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-hoaxshell",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-hoaxshell",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-hydra",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-hydra",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-icat",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-icat",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-ifind",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-ifind",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-ike-scan",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-ike-scan",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-ils",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-ils",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-impacket-mssqlclient",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-impacket-mssqlclient",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-impacket-psexec",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-impacket-psexec",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-impacket-scripts",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-impacket-scripts",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-impacket-smbexec",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-impacket-smbexec",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-impacket-smbserver",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-impacket-smbserver",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-iodine-client-start",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-iodine-client-start",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-istat",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-istat",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-jadx-gui",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-jadx-gui",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-javasnoop",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-javasnoop",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-jboss-linux",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-jboss-linux",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-jboss-win",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-jboss-win",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-jcat",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-jcat",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-jd-gui",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-jd-gui",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-jls",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-jls",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-john",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-john",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-johnny",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-johnny",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-jsql",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-jsql",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-kerberoast",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-kerberoast",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-kismet",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-kismet",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-laudanum",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-laudanum",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-lbd",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-lbd",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-legba",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-legba",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-legion",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-legion",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-ligolo-agent",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-ligolo-agent",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-ligolo-mp",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-ligolo-mp",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-ligolo-mp-client",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-ligolo-mp-client",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-ligolo-ng-common-binaries",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-ligolo-ng-common-binaries",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-ligolo-proxy",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-ligolo-proxy",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-linpeas",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-linpeas",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-lynis",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-lynis",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-macchanger",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-macchanger",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-mactime",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-mactime",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-magicrescue",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-magicrescue",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-maltego",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-maltego",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-masscan",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-masscan",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-mdb-sql",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-mdb-sql",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-medusa",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-medusa",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-metagoofil",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-metagoofil",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-metasploit-framework",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-metasploit-framework",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-mfoc",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-mfoc",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-mfterm",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-mfterm",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-mimikatz",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-mimikatz",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-minicom",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-minicom",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-miredo",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-miredo",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-mitmproxy",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-mitmproxy",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-mmcat",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-mmcat",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-mmls",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-mmls",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-mmstat",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-mmstat",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-msfpc",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-msfpc",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-msfvenom",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-msfvenom",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-mxcheck",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-mxcheck",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-mysql",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-mysql",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-nbtscan",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-nbtscan",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-ncat",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-ncat",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-ncrack",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-ncrack",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-netcat",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-netcat",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-netdiscover",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-netdiscover",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-netexec",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-netexec",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-netmask",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-netmask",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-netsniff-ng",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-netsniff-ng",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-nikto",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-nikto",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-nishang",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-nishang",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-nmap",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-nmap",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-nuclei",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-nuclei",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-obsidian",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-obsidian",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-olefile",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-olefile",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-olevba",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-olevba",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-ollydbg",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-ollydbg",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-onesixtyone",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-onesixtyone",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-ophcrack",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-ophcrack",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-ophcrack-cli",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-ophcrack-cli",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-oscanner",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-oscanner",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-paros",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-paros",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-parsero",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-parsero",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-passing-the-hash",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-passing-the-hash",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-patator",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-patator",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-pdf-parser",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-pdf-parser",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-pdfid",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-pdfid",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-peass",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-peass",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-penelope",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-penelope",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-photorec",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-photorec",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-pipal",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-pipal",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-pixiewps",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-pixiewps",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-powercat",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-powercat",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-powershell-empire",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-powershell-empire",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-powersploit",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-powersploit",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-proxytunnel",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-proxytunnel",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-pspy",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-pspy",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-ptunnel",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-ptunnel",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-pwnat",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-pwnat",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-pwsh",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-pwsh",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-pyinstaller",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-pyinstaller",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-rcrack",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-rcrack",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-rdesktop",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-rdesktop",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-reaver",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-reaver",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-recon-ng",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-recon-ng",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-recordmydesktop",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-recordmydesktop",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-recstudio",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-recstudio",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-recstudio-cli",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-recstudio-cli",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-responder",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-responder",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-rizin",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-rizin",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-rkhunter",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-rkhunter",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-rsmangler",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-rsmangler",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-rubeus",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-rubeus",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-sara",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-sara",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-sbd",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-sbd",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-scalpel",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-scalpel",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-scapy",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-scapy",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-scrounge-ntfs",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-scrounge-ntfs",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-searchsploit",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-searchsploit",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-seclists",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-seclists",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-setoolkit",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-setoolkit",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-sharphound",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-sharphound",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-shell-gpt",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-shell-gpt",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-shellnoob",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-shellnoob",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-shellter",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-shellter",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-sherlock",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-sherlock",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-sickle-pdk",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-sickle-pdk",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-sidguess",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-sidguess",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-sigfind",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-sigfind",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-skipfish",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-skipfish",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-smbclient",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-smbclient",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-smbmap",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-smbmap",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-smtp-user-enum",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-smtp-user-enum",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-snmp-check",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-snmp-check",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-socat",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-socat",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-sorter",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-sorter",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-sparrow-wifi",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-sparrow-wifi",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-spiderfoot",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-spiderfoot",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-spiderfoot-cli",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-spiderfoot-cli",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-spooftooph",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-spooftooph",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-sqldict",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-sqldict",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-sqlmap",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-sqlmap",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-sqlninja",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-sqlninja",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-sqlsus",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-sqlsus",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-ssdeep",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-ssdeep",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-ssldump",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-ssldump",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-sslh",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-sslh",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-sslscan",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-sslscan",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-sslsplit",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-sslsplit",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-sslyze",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-sslyze",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-sstimap",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-sstimap",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-starkiller-start",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-starkiller-start",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-starkiller-stop",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-starkiller-stop",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-steghide",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-steghide",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-subfinder",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-subfinder",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-swaks",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-swaks",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-tailscale",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-tailscale",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-tcpdump",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-tcpdump",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-tcpreplay",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-tcpreplay",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-termineter",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-termineter",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-testdisk",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-testdisk",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-thc-pptp-bruter",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-thc-pptp-bruter",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-tinja",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-tinja",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-tookie-osint",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-tookie-osint",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-tweaks",
+    "description": "tool to adjust advanced configuration settings for Kali Linux",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-tweaks",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-udptunnel",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-udptunnel",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-unicornscan",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-unicornscan",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-unix-privesc-check",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-unix-privesc-check",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-uro",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-uro",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-veil",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-veil",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-villain",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-villain",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-voiphopper",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-voiphopper",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-wapiti",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-wapiti",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-wash",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-wash",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-watobo",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-watobo",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-wcvs",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-wcvs",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-webscarab",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-webscarab",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-webshells",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-webshells",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-weevely",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-weevely",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-wfuzz",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-wfuzz",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-whatweb",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-whatweb",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-wifiphisher",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-wifiphisher",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-wifite",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-wifite",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-winpeas",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-winpeas",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-wireshark",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-wireshark",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-wordlists",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-wordlists",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-wpprobe",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-wpprobe",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-wpscan",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-wpscan",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-xplico-webui-start",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-xplico-webui-start",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-xplico-webui-stop",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-xplico-webui-stop",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-yara",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-yara",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-yersinia",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-yersinia",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-zaproxy",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-zaproxy",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kali-zenmap",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kali-zenmap",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kerberoast",
+    "description": "tools for attacking MS Kerberos implementations",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kerberoast",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "kismet",
+    "description": "wireless network and device detector (metapackage)",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "kismet",
+      "pacman": "kismet",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "koadic",
+    "description": "Windows post-exploitation rootkit",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "koadic",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "krbrelayx",
+    "description": "Kerberos relaying and unconstrained delegation abuse toolkit",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "krbrelayx",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "laudanum",
+    "description": "Collection of injectable web files",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "laudanum",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "lbd",
+    "description": "Load balancer detector",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "lbd",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "ldeep",
+    "description": "In-depth ldap enumeration utility",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "ldeep",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "legba",
+    "description": "Multiprotocol credentials bruteforcer / password sprayer and enumerator",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "legba",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "legion",
+    "description": "semi-automated network penetration testing tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "legion",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "libewf",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "libewf",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "libfreefare",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "libfreefare",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "libnfc",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "libnfc",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "libpst",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "libpst",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "ligolo-mp",
+    "description": "Multiplayer pivoting solution",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "ligolo-mp",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "ligolo-ng",
+    "description": "Advanced, yet simple, tunneling/pivoting tool that uses a TUN interface",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "ligolo-ng",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "ligolo-ng-common-binaries",
+    "description": "Prebuilt binaries for Advanced ligolo-ng",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "ligolo-ng-common-binaries",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "linkedin2username",
+    "description": "Generate username lists for companies on LinkedIn",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "linkedin2username",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "llvm-defaults",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "llvm-defaults",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "lynis",
+    "description": "security auditing tool for Unix based systems",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "lynis",
+      "pacman": "lynis",
+      "dnf": "lynis",
+      "brew": "lynis"
+    }
+  },
+  {
+    "name": "macchanger",
+    "description": "utility for manipulating the MAC address of network interfaces",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "macchanger",
+      "pacman": "macchanger",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "magicrescue",
+    "description": "recover files by looking for magic bytes",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "magicrescue",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "maltego",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "maltego",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "masscan",
+    "description": "TCP port scanner",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "masscan",
+      "pacman": "masscan",
+      "dnf": "masscan",
+      "brew": "masscan"
+    }
+  },
+  {
+    "name": "massdns",
+    "description": "high-performance DNS stub resolver",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "massdns",
+      "pacman": "massdns",
+      "dnf": null,
+      "brew": "massdns"
+    }
+  },
+  {
+    "name": "mdbtools",
+    "description": "JET / MS Access database (MDB) tools",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "mdbtools",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "mdk3",
+    "description": "Wireless attack tool for IEEE 802.11 networks",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "mdk3",
+      "pacman": "mdk3",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "medusa",
+    "description": "fast, parallel, modular, login brute-forcer for network services",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "medusa",
+      "pacman": "medusa",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "metagoofil",
+    "description": "Tool designed for extracting metadata of public documents",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "metagoofil",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "metasploit-framework",
+    "description": "Framework for exploit development and vulnerability research",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "metasploit-framework",
+      "pacman": "metasploit",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "mfcuk",
+    "description": "MiFare Classic Universal toolKit",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "mfcuk",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "mfoc",
+    "description": "MIFARE Classic offline cracker",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "mfoc",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "mfterm",
+    "description": "Terminal for working with Mifare Classic 1-4k Tags",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "mfterm",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "mimikatz",
+    "description": "Uses admin rights on Windows to display passwords in plaintext",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "mimikatz",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "minicom",
+    "description": "menu-driven serial communication program",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "minicom",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "miredo",
+    "description": "Teredo IPv6 tunneling through NATs",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "miredo",
+      "pacman": "miredo",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "missidentify",
+    "description": "find win32 applications",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "missidentify",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "mitm6",
+    "description": "pwning IPv4 via IPv6",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "mitm6",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "mitmproxy",
+    "description": "SSL-capable man-in-the-middle HTTP proxy",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "mitmproxy",
+      "pacman": "mitmproxy",
+      "dnf": null,
+      "brew": "mitmproxy"
+    }
+  },
+  {
+    "name": "msfpc",
+    "description": "MSFvenom Payload Creator (MSFPC)",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "msfpc",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "msitools",
+    "description": "Windows Installer file manipulation tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "msitools",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "mxcheck",
+    "description": "Info and security scanner for e-mail servers",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "mxcheck",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "myrescue",
+    "description": "rescue data from damaged disks",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "myrescue",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "nbtscan",
+    "description": "scan networks searching for NetBIOS information",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "nbtscan",
+      "pacman": "nbtscan",
+      "dnf": "nbtscan",
+      "brew": null
+    }
+  },
+  {
+    "name": "ncrack",
+    "description": "High-speed network authentication cracking tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "ncrack",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "netdiscover",
+    "description": "active/passive network address scanner using ARP requests",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "netdiscover",
+      "pacman": "netdiscover",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "netexec",
+    "description": "Network Execution Tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "netexec",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "netmask",
+    "description": "helps determine network masks",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "netmask",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "netsniff-ng",
+    "description": "Linux network packet sniffer toolkit",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "netsniff-ng",
+      "pacman": "netsniff-ng",
+      "dnf": "netsniff-ng",
+      "brew": null
+    }
+  },
+  {
+    "name": "nikto",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "nikto",
+      "pacman": "nikto",
+      "dnf": null,
+      "brew": "nikto"
+    }
+  },
+  {
+    "name": "nishang",
+    "description": "Collection of PowerShell scripts and payloads",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "nishang",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "nmap",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "nmap",
+      "pacman": "nmap",
+      "dnf": "nmap",
+      "brew": "nmap"
+    }
+  },
+  {
+    "name": "nuclei",
+    "description": "Fast and customizable vulnerability scanner based on simple YAML based DSL",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "nuclei",
+      "pacman": "nuclei",
+      "dnf": null,
+      "brew": "nuclei"
+    }
+  },
+  {
+    "name": "obsidian",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "obsidian",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "ohrwurm",
+    "description": "RTP fuzzer",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "ohrwurm",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "oletools",
+    "description": "analyze MS OLE2 files and MS Office documents",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "oletools",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "ollydbg",
+    "description": "32-bit assembler level analysing debugger",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "ollydbg",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "onesixtyone",
+    "description": "fast and simple SNMP scanner",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "onesixtyone",
+      "pacman": "onesixtyone",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "ophcrack",
+    "description": "Microsoft Windows password cracker using rainbow tables (gui)",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "ophcrack",
+      "pacman": "ophcrack",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "oscanner",
+    "description": "Oracle assessment framework",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "oscanner",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "outguess",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "outguess",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "owasp-mantra-ff",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "owasp-mantra-ff",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "p0f",
+    "description": "Passive OS fingerprinting tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "p0f",
+      "pacman": "p0f",
+      "dnf": null,
+      "brew": "p0f"
+    }
+  },
+  {
+    "name": "pack",
+    "description": "Password analysis and cracking kit",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "pack",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "padbuster",
+    "description": "Script for performing Padding Oracle attacks",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "padbuster",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "paros",
+    "description": "Web application proxy",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "paros",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "parsero",
+    "description": "Robots.txt audit tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "parsero",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "pasco",
+    "description": "Internet Explorer cache forensic analysis tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "pasco",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "passing-the-hash",
+    "description": "Patched tools to use password hashes as authentication input",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "passing-the-hash",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "patator",
+    "description": "Multi-purpose brute-forcer",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "patator",
+      "pacman": "patator",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "pdf-parser",
+    "description": "Parses PDF files to identify fundamental elements",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "pdf-parser",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "pdfid",
+    "description": "Scans PDF files for certain PDF keywords",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "pdfid",
+      "pacman": "python-pdfid",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "peass-ng",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "peass-ng",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "penelope",
+    "description": "advanced shell handler for penetration testing and CTFs",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "penelope",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "pev",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "pev",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "photon",
+    "description": "Incredibly fast crawler designed for open source intelligence",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "photon",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "phpggc",
+    "description": "Generate payloads that exploit unsafe object deserialization",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "phpggc",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "pipal",
+    "description": "Statistical analysis on password dumps",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "pipal",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "pixiewps",
+    "description": "Offline WPS bruteforce tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "pixiewps",
+      "pacman": "pixiewps",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "pompem",
+    "description": "Exploit and Vulnerability Finder",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "pompem",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "portspoof",
+    "description": "enhance OS security through a set of techniques",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "portspoof",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "powercat",
+    "description": "netcat features all in powershell v2",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "powercat",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "powershell",
+    "description": "PowerShell is an automation and configuration management platform.",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "powershell",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "powershell-empire",
+    "description": "PowerShell and Python post-exploitation agent",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "powershell-empire",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "powersploit",
+    "description": "PowerShell Post-Exploitation Framework",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "powersploit",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "protos-sip",
+    "description": "SIP test suite",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "protos-sip",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "proxychains-ng",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "proxychains-ng",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "proxytunnel",
+    "description": "Help SSH and other protocols through HTTP(S) proxies",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "proxytunnel",
+      "pacman": "proxytunnel",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "pspy",
+    "description": "Monitor Linux processes without root permissions",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "pspy",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "ptunnel",
+    "description": "Tunnel TCP connections over ICMP packets",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "ptunnel",
+      "pacman": "ptunnel",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "pwnat",
+    "description": "NAT to NAT client-server communication",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "pwnat",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "pyinstaller",
+    "description": "Utility to bundle a Python application into a single package",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "pyinstaller",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "python-faraday",
+    "description": "Collaborative Penetration Test IDE",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "python-faraday",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "radare2",
+    "description": "free and advanced command line hexadecimal editor",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "radare2",
+      "pacman": "radare2",
+      "dnf": "radare2",
+      "brew": "radare2"
+    }
+  },
+  {
+    "name": "rainbowcrack",
+    "description": "Rainbow table password cracker",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "rainbowcrack",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "raven",
+    "description": "Python tool that extends the capabilities of the http.server Python module",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "raven",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "rcracki-mt",
+    "description": "Version of rcrack that supports hybrid and indexed tables",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "rcracki-mt",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "rdesktop",
+    "description": "RDP client for Windows NT/2000 Terminal Server and Windows Servers",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "rdesktop",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "reaver",
+    "description": "brute force attack tool against Wi-Fi Protected Setup PIN number",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "reaver",
+      "pacman": "reaver",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "rebind",
+    "description": "DNS rebinding tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "rebind",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "recon-ng",
+    "description": "Web Reconnaissance framework written in Python",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "recon-ng",
+      "pacman": "recon-ng",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "recordmydesktop",
+    "description": "Captures audio-video data of a Linux desktop session",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "recordmydesktop",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "recoverdm",
+    "description": "recover files on disks with damaged sectors",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "recoverdm",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "recoverjpeg",
+    "description": "recover JFIF (JPEG) pictures and MOV movies",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "recoverjpeg",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "redeye",
+    "description": "tool to help you manage your data during a pentest operation",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "redeye",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "redfang",
+    "description": "Locates non-discoverable bluetooth devices",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "redfang",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "reglookup",
+    "description": "utility to analysis for Windows NT-based registry",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "reglookup",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "regripper",
+    "description": "perform forensic analysis of registry hives",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "regripper",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "responder",
+    "description": "LLMNR/NBT-NS/mDNS Poisoner",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "responder",
+      "pacman": "responder",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "rfcat",
+    "description": "Swiss army knife of sub-GHz radio",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "rfcat",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "rifiuti",
+    "description": "MS Windows recycle bin analysis tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "rifiuti",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "rifiuti2",
+    "description": "replacement for rifiuti, a MS Windows recycle bin analysis tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "rifiuti2",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "rizin",
+    "description": "reverse engineering framework and command-line toolset",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "rizin",
+      "pacman": "rizin",
+      "dnf": null,
+      "brew": "rizin"
+    }
+  },
+  {
+    "name": "rizin-cutter",
+    "description": "reverse engineering platform powered by rizin",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "rizin-cutter",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "rkhunter",
+    "description": "rootkit, backdoor, sniffer and exploit scanner",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "rkhunter",
+      "pacman": "rkhunter",
+      "dnf": "rkhunter",
+      "brew": null
+    }
+  },
+  {
+    "name": "rsmangler",
+    "description": "Wordlist mangling tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "rsmangler",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "rtpbreak",
+    "description": "Detects, reconstructs, and analyzes RTP sessions",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "rtpbreak",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "rtpflood",
+    "description": "Tool to flood any RTP device",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "rtpflood",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "rtpinsertsound",
+    "description": "Inserts audio into a specified stream",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "rtpinsertsound",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "rtpmixsound",
+    "description": "Mixes pre-recorded audio in real-time",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "rtpmixsound",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "rubeus",
+    "description": "Raw Kerberos interaction and abuses",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "rubeus",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "safecopy",
+    "description": "data recovery tool for problematic or damaged media",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "safecopy",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "samba",
+    "description": "SMB/CIFS file, print, and login server for Unix",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "samba",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "samdump2",
+    "description": "Dump Windows 2k/NT/XP password hashes",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "samdump2",
+      "pacman": "samdump2",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "sara",
+    "description": "RouterOS Security Inspector",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "sara",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "sbd",
+    "description": "Secure backdoor for Linux and Windows",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "sbd",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "scalpel",
+    "description": "fast filesystem-independent file recovery",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "scalpel",
+      "pacman": "scalpel",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "scapy",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "scapy",
+      "pacman": "python-scapy",
+      "dnf": "python3-scapy",
+      "brew": "scapy"
+    }
+  },
+  {
+    "name": "scrounge-ntfs",
+    "description": "Data recovery program for NTFS filesystems",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "scrounge-ntfs",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "sctpscan",
+    "description": "SCTP network scanner for discovery and security",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "sctpscan",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "seclists",
+    "description": "Collection of multiple types of security lists",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "seclists",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "set",
+    "description": "Social-Engineer Toolkit",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "set",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "sfuzz",
+    "description": "Black Box testing utilities",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "sfuzz",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "sharphound",
+    "description": "C# Data Collector for BloodHound",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "sharphound",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "shell-gpt",
+    "description": "Command-line productivity tool powered by AI large language models",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "shell-gpt",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "shellnoob",
+    "description": "Shellcode writing toolkit",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "shellnoob",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "shellter",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "shellter",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "sherlock",
+    "description": "Find usernames across social networks",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "sherlock",
+      "pacman": "sherlock",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "sickle-pdk",
+    "description": "Payload development kit",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "sickle-pdk",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "sidguesser",
+    "description": "Guesses sids against an Oracle database",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "sidguesser",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "siege",
+    "description": "HTTP regression testing and benchmarking utility",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "siege",
+      "pacman": "siege",
+      "dnf": "siege",
+      "brew": "siege"
+    }
+  },
+  {
+    "name": "siparmyknife",
+    "description": "SIP fuzzing tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "siparmyknife",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "sipcrack",
+    "description": "SIP login dumper/cracker",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "sipcrack",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "sipp",
+    "description": "Traffic generator for the SIP protocol",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "sipp",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "sippts",
+    "description": "Set of tools to audit SIP based VoIP Systems",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "sippts",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "sipsak",
+    "description": "SIP Swiss army knife",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "sipsak",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "sipvicious",
+    "description": "tools to audit SIP based VoIP systems",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "sipvicious",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "skipfish",
+    "description": "fully automated, active web application security reconnaissance tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "skipfish",
+      "pacman": "skipfish",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "sleuthkit",
+    "description": "tools for forensics analysis on volume and filesystem data",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "sleuthkit",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "slowhttptest",
+    "description": "application layer Denial of Service attacks simulation tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "slowhttptest",
+      "pacman": "slowhttptest",
+      "dnf": null,
+      "brew": "slowhttptest"
+    }
+  },
+  {
+    "name": "smbmap",
+    "description": "handy SMB enumeration tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "smbmap",
+      "pacman": "smbmap",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "smtp-user-enum",
+    "description": "Username guessing tool for the SMTP service",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "smtp-user-enum",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "sniffjoke",
+    "description": "Transparent TCP connection scrambler",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "sniffjoke",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "snmpcheck",
+    "description": "SNMP service enumeration tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "snmpcheck",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "socat",
+    "description": "multipurpose relay for bidirectional data transfer",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "socat",
+      "pacman": "socat",
+      "dnf": "socat",
+      "brew": "socat"
+    }
+  },
+  {
+    "name": "sparrow-wifi",
+    "description": "Graphical Wi-Fi Analyzer for Linux",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "sparrow-wifi",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "spiderfoot",
+    "description": "OSINT collection and reconnaissance tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "spiderfoot",
+      "pacman": "spiderfoot",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "spike",
+    "description": "Network protocol fuzzer",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "spike",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "spooftooph",
+    "description": "Automates spoofing or cloning Bluetooth devices",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "spooftooph",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "sqldict",
+    "description": "Dictionary attack tool for SQL Server",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "sqldict",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "sqlitebrowser",
+    "description": "GUI editor for SQLite databases",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "sqlitebrowser",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "sqlmap",
+    "description": "automatic SQL injection tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "sqlmap",
+      "pacman": "sqlmap",
+      "dnf": null,
+      "brew": "sqlmap"
+    }
+  },
+  {
+    "name": "sqlninja",
+    "description": "SQL server injection and takeover tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "sqlninja",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "sqlsus",
+    "description": "MySQL injection tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "sqlsus",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "ssdeep",
+    "description": "recursive piecewise hashing tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "ssdeep",
+      "pacman": "ssdeep",
+      "dnf": "ssdeep",
+      "brew": "ssdeep"
+    }
+  },
+  {
+    "name": "sshuttle",
+    "description": "Transparent proxy server for VPN over SSH",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "sshuttle",
+      "pacman": "sshuttle",
+      "dnf": null,
+      "brew": "sshuttle"
+    }
+  },
+  {
+    "name": "ssldump",
+    "description": "SSLv3/TLS network protocol analyzer",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "ssldump",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "sslh",
+    "description": "Applicative protocol multiplexer",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "sslh",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "sslscan",
+    "description": "Tests SSL/TLS enabled services to discover supported cipher suites",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "sslscan",
+      "pacman": "sslscan",
+      "dnf": null,
+      "brew": "sslscan"
+    }
+  },
+  {
+    "name": "sslsniff",
+    "description": "SSL/TLS man-in-the-middle attack tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "sslsniff",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "sslsplit",
+    "description": "transparent and scalable SSL/TLS interception",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "sslsplit",
+      "pacman": "sslsplit",
+      "dnf": null,
+      "brew": "sslsplit"
+    }
+  },
+  {
+    "name": "sslyze",
+    "description": "Fast and full-featured SSL scanner",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "sslyze",
+      "pacman": "python-sslyze",
+      "dnf": null,
+      "brew": "sslyze"
+    }
+  },
+  {
+    "name": "sstimap",
+    "description": "Automatic SSTI detection tool with interactive interface",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "sstimap",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "steghide",
+    "description": "steganography hiding tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "steghide",
+      "pacman": "steghide",
+      "dnf": "steghide",
+      "brew": null
+    }
+  },
+  {
+    "name": "stegosuite",
+    "description": "steganography tool to hide information in image files",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "stegosuite",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "stegsnow",
+    "description": "steganography using ASCII files",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "stegsnow",
+      "pacman": "stegsnow",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "stunnel4",
+    "description": "Universal SSL tunnnel for network daemons - compatibility package",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "stunnel4",
+      "pacman": "stunnel",
+      "dnf": "stunnel",
+      "brew": "stunnel"
+    }
+  },
+  {
+    "name": "subfinder",
+    "description": "subdomain discovery tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "subfinder",
+      "pacman": "subfinder",
+      "dnf": null,
+      "brew": "subfinder"
+    }
+  },
+  {
+    "name": "subjack",
+    "description": "Subdomain Takeover tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "subjack",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "sublist3r",
+    "description": "Fast subdomains enumeration tool for penetration testers",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "sublist3r",
+      "pacman": "sublist3r",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "submitting-tools",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "submitting-tools",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "sucrack",
+    "description": "multithreaded su bruteforcer",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "sucrack",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "swaks",
+    "description": "SMTP command-line test tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "swaks",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "t50",
+    "description": "Multi-protocol packet injector tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "t50",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "tailscale",
+    "description": "secure connectivity platform",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "tailscale",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "tcpdump",
+    "description": "command-line network traffic analyzer",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "tcpdump",
+      "pacman": "tcpdump",
+      "dnf": "tcpdump",
+      "brew": "tcpdump"
+    }
+  },
+  {
+    "name": "tcpflow",
+    "description": "TCP flow recorder",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "tcpflow",
+      "pacman": "tcpflow",
+      "dnf": "tcpflow",
+      "brew": "tcpflow"
+    }
+  },
+  {
+    "name": "tcpreplay",
+    "description": "Tool to replay saved tcpdump files at arbitrary speeds",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "tcpreplay",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "termineter",
+    "description": "Smart meter testing framework",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "termineter",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "testdisk",
+    "description": "Partition scanner and disk recovery tool, and PhotoRec file recovery tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "testdisk",
+      "pacman": "testdisk",
+      "dnf": "testdisk",
+      "brew": "testdisk"
+    }
+  },
+  {
+    "name": "thc-ipv6",
+    "description": "The Hacker Choice's IPv6 Attack Toolkit",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "thc-ipv6",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "thc-pptp-bruter",
+    "description": "THC PPTP Brute Force",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "thc-pptp-bruter",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "thc-ssl-dos",
+    "description": "Stress tester for the SSL handshake",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "thc-ssl-dos",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "theharvester",
+    "description": "tool for gathering e-mail accounts and subdomain names from public sources",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "theharvester",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "tinja",
+    "description": "CLI tool for testing web pages for template injection",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "tinja",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "tlssled",
+    "description": "Evaluates the security of a target SSL/TLS (HTTPS) server",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "tlssled",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "tnscmd10g",
+    "description": "Tool to prod the oracle tnslsnr process",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "tnscmd10g",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "tookie-osint",
+    "description": "OSINT information gathering tool for finding social media accounts",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "tookie-osint",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "top-100",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "top-100",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "truecrack",
+    "description": "Bruteforce password cracker for TrueCrypt volumes",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "truecrack",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "trufflehog",
+    "description": "Searches through git repositories for secrets",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "trufflehog",
+      "pacman": null,
+      "dnf": null,
+      "brew": "trufflehog"
+    }
+  },
+  {
+    "name": "twofi",
+    "description": "Twitter words of interest",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "twofi",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "ubertooth",
+    "description": "2.4 GHz wireless development platform for Bluetooth experimentation",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "ubertooth",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "udptunnel",
+    "description": "tunnel UDP packets over a TCP connection",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "udptunnel",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "undbx",
+    "description": "tool to extract, recover and undelete e-mail messages from .dbx files",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "undbx",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "unhide",
+    "description": "forensic tool to find hidden processes and ports",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "unhide",
+      "pacman": "unhide",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "unicornscan",
+    "description": "Userland distributed TCP/IP stack",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "unicornscan",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "uniscan",
+    "description": "LFI, RFI, and RCE vulnerability scanner",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "uniscan",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "unix-privesc-check",
+    "description": "Script to check for simple privilege escalation vectors",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "unix-privesc-check",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "urlcrazy",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "urlcrazy",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "uro",
+    "description": "Declutter URLs for crawling/pentesting",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "uro",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "veil",
+    "description": "Generates payloads to bypass anti-virus solutions",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "veil",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "villain",
+    "description": "High level C2 framework",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "villain",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "vinetto",
+    "description": "forensics tool to examine Thumbs.db files",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "vinetto",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "voiphopper",
+    "description": "Runs a VLAN hop security test",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "voiphopper",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "wafw00f",
+    "description": "identify and fingerprint Web Application Firewall products",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "wafw00f",
+      "pacman": "wafw00f",
+      "dnf": null,
+      "brew": "wafw00f"
+    }
+  },
+  {
+    "name": "wapiti",
+    "description": "web application vulnerability scanner",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "wapiti",
+      "pacman": "wapiti",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "watobo",
+    "description": "Semi-automated web application scanner",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "watobo",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "web-cache-vulnerability-scanner",
+    "description": "Go-based CLI tool for testing for web cache poisoning",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "web-cache-vulnerability-scanner",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "webacoo",
+    "description": "Web backdoor cookie script kit",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "webacoo",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "webscarab",
+    "description": "Web application review tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "webscarab",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "webshells",
+    "description": "Collection of webshells",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "webshells",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "weevely",
+    "description": "Stealth tiny web shell",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "weevely",
+      "pacman": "weevely",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "wfuzz",
+    "description": "Web application bruteforcer",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "wfuzz",
+      "pacman": "wfuzz",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "whatweb",
+    "description": "Next generation web scanner",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "whatweb",
+      "pacman": "whatweb",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "wifi-honey",
+    "description": "Wi-Fi honeypot",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "wifi-honey",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "wifiphisher",
+    "description": "Automated phishing attacks against Wi-Fi networks",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "wifiphisher",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "wifipumpkin3",
+    "description": "Powerful framework for rogue access point attack",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "wifipumpkin3",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "wifite",
+    "description": "Python script to automate wireless auditing using aircrack-ng tools",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "wifite",
+      "pacman": "wifite",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "wireshark",
+    "description": "network traffic analyzer - graphical interface",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "wireshark",
+      "pacman": "wireshark-qt",
+      "dnf": "wireshark",
+      "brew": "wireshark"
+    }
+  },
+  {
+    "name": "witnessme",
+    "description": "Web Inventory tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "witnessme",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "wmi",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "wmi",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "wordlists",
+    "description": "Contains the rockyou wordlist",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "wordlists",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "wpprobe",
+    "description": "Fast WordPress plugin enumeration tool",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "wpprobe",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "wpscan",
+    "description": "",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "wpscan",
+      "pacman": null,
+      "dnf": null,
+      "brew": "wpscan"
+    }
+  },
+  {
+    "name": "xplico",
+    "description": "Network Forensic Analysis Tool (NFAT)",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "xplico",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "xspy",
+    "description": "X server sniffer",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "xspy",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "xsser",
+    "description": "XSS testing framework",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "xsser",
+      "pacman": "xsser",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "yara",
+    "description": "Pattern matching swiss knife for malware researchers",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "yara",
+      "pacman": "yara",
+      "dnf": "yara",
+      "brew": "yara"
+    }
+  },
+  {
+    "name": "yersinia",
+    "description": "Network vulnerabilities check software",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "yersinia",
+      "pacman": "yersinia",
+      "dnf": null,
+      "brew": null
+    }
+  },
+  {
+    "name": "zaproxy",
+    "description": "Testing tool for finding vulnerabilities in web applications",
+    "category": "Uncategorized",
+    "packages": {
+      "apt": "zaproxy",
+      "pacman": null,
+      "dnf": null,
+      "brew": null
+    }
+  }
+]

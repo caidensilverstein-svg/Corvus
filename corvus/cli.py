@@ -12,7 +12,7 @@ from rich.panel import Panel
 from . import __version__
 from .detect import detect, elevate_hint
 from .matrix import get_all_tools, get_tools_for_pm, get_by_category, get_tool
-from .installer import run_install_loop
+from .installer import run_install_loop, InstallStatus
 from .report import generate
 
 console = Console()
@@ -143,5 +143,5 @@ def main(argv: Optional[list[str]] = None) -> int:
     if not args.no_report:
         generate(results, info)
 
-    failed = sum(1 for r in results if r.status.name == "FAILED")
+    failed = sum(1 for r in results if r.status == InstallStatus.FAILED)
     return 1 if failed > 0 else 0

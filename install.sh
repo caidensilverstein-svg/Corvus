@@ -8,6 +8,12 @@ INSTALL_DIR="$HOME/.local/corvus"
 
 echo "==> Corvus installer"
 
+# Require git
+if ! command -v git &>/dev/null; then
+    echo "Error: git is required but not found." >&2
+    exit 1
+fi
+
 # Require Python 3.8+
 if ! command -v python3 &>/dev/null; then
     echo "Error: python3 is required but not found." >&2
