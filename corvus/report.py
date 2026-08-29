@@ -17,15 +17,14 @@ from .installer import InstallResult, InstallStatus
 
 console = Console()
 
-REPORT_DIR = Path.home() / ".corvus"
+REPORT_DIR  = Path.home() / ".corvus"
 REPORT_PATH = REPORT_DIR / "last_report.txt"
 
 
 def generate(results: list[InstallResult], info: SystemInfo) -> None:
-    """Print a rich summary table and write the plain-text report file."""
     _print_terminal_report(results, info)
     _write_file_report(results, info)
-    console.print(f"\n[dim]Report saved to {REPORT_PATH}[/dim]")
+    console.print(f"[dim]Report saved to {REPORT_PATH}[/dim]")
 
 
 def _print_terminal_report(results: list[InstallResult], info: SystemInfo) -> None:
@@ -39,16 +38,17 @@ def _print_terminal_report(results: list[InstallResult], info: SystemInfo) -> No
     console.print()
 
     table = Table(box=box.SIMPLE_HEAD, show_lines=False)
-    table.add_column("Tool", style="bold", no_wrap=True)
+    table.add_column("Tool",    style="bold", no_wrap=True)
     table.add_column("Package", style="dim")
-    table.add_column("Status", no_wrap=True)
-    table.add_column("Notes", overflow="fold")
+    table.add_column("Status",  no_wrap=True)
+    table.add_column("Notes",   overflow="fold")
 
     status_styles = {
-        InstallStatus.SUCCESS: "[green]✓ success[/green]",
-        InstallStatus.FAILED: "[red]✗ failed[/red]",
-        InstallStatus.SKIPPED: "[yellow]⚡ skipped[/yellow]",
-        InstallStatus.UNAVAILABLE: "[dim]– n/a[/dim]",
+        InstallStatus.SUCCESS:          "[green]✓ success[/green]",
+        InstallStatus.ALREADY_INSTALLED:"[dim]↩ already installed[/dim]",
+        InstallStatus.FAILED:           "[red]✗ failed[/red]",
+        InstallStatus.SKIPPED:          "[yellow]⚡ skipped[/yellow]",
+        InstallStatus.UNAVAILABLE:      "[dim]– n/a[/dim]",
     }
 
     for r in results:
@@ -61,13 +61,13 @@ def _print_terminal_report(results: list[InstallResult], info: SystemInfo) -> No
 
     console.print(table)
 
-    # Summary counters
     counts = {s: 0 for s in InstallStatus}
     for r in results:
         counts[r.status] += 1
 
     console.print(
-        f"  [green]{counts[InstallStatus.SUCCESS]} succeeded[/green]  "
+        f"  [green]{counts[InstallStatus.SUCCESS]} installed[/green]  "
+        f"[dim]{counts[InstallStatus.ALREADY_INSTALLED]} already present[/dim]  "
         f"[red]{counts[InstallStatus.FAILED]} failed[/red]  "
         f"[yellow]{counts[InstallStatus.SKIPPED]} skipped[/yellow]  "
         f"[dim]{counts[InstallStatus.UNAVAILABLE]} unavailable[/dim]"
@@ -85,14 +85,13 @@ def _write_file_report(results: list[InstallResult], info: SystemInfo) -> None:
         f"PM:      {info.package_manager}",
         f"Root:    {'yes' if info.is_root else 'no'}",
         "",
-        f"{'Tool':<25} {'Package':<30} {'Status':<12} Notes",
+        f"{'Tool':<25} {'Package':<30} {'Status':<18} Notes",
         "-" * 100,
     ]
 
     for r in results:
-        status_str = r.status.name.lower()
         note = r.reason[:50] if r.reason else ""
-        lines.append(f"{r.tool:<25} {(r.package or '—'):<30} {status_str:<12} {note}")
+        lines.append(f"{r.tool:<25} {(r.package or '—'):<30} {r.status.name.lower():<18} {note}")
 
     lines.append("")
     lines.append("Summary")
@@ -101,8 +100,7 @@ def _write_file_report(results: list[InstallResult], info: SystemInfo) -> None:
     counts = {s: 0 for s in InstallStatus}
     for r in results:
         counts[r.status] += 1
-
     for status, count in counts.items():
-        lines.append(f"  {status.name.lower():<12}: {count}")
+        lines.append(f"  {status.name.lower():<20}: {count}")
 
     REPORT_PATH.write_text("\n".join(lines) + "\n")

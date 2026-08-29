@@ -2,6 +2,7 @@
 CLI entry point — argument parsing and top-level orchestration.
 """
 
+import difflib
 import hashlib
 import sys
 import argparse
@@ -15,7 +16,7 @@ from rich.table import Table
 from . import __version__
 from .detect import detect, elevate_hint
 from .matrix import get_all_tools, get_tools_for_pm, get_by_category, get_tool
-from .installer import run_install_loop, InstallStatus, _build_install_cmd
+from .installer import run_install_loop, pm_sync, InstallStatus, _build_install_cmd
 from .report import generate
 
 console = Console()
@@ -30,26 +31,30 @@ def build_parser() -> argparse.ArgumentParser:
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  corvus                        # interactive: install all tools
-  corvus -t nmap,sqlmap         # install specific tools only
-  corvus -l                     # list all tools in the matrix
-  corvus -d                     # show what would be installed (dry run)
-  corvus -p                     # preview exact commands without running them
-  corvus -c "Web Application"
+  corvus                        # install all tools for your distro
+  corvus -t nmap,sqlmap         # install specific tools
+  corvus -l                     # list all tools and availability
+  corvus -p                     # preview exact commands, then exit
+  corvus -d                     # dry run: no installs
+  corvus -u                     # sync package index first, then install
+  corvus -v                     # stream live package manager output
+  corvus -V                     # verify tool matrix SHA-256
         """,
     )
     parser.add_argument("--version", action="version", version=f"Corvus {__version__}")
-    parser.add_argument("-t", "--tools", metavar="TOOL[,TOOL...]",
+    parser.add_argument("-t", "--tools",    metavar="TOOL[,TOOL...]",
                         help="Comma-separated list of specific tools to install")
     parser.add_argument("-c", "--category", metavar="CATEGORY",
                         help="Install only tools in a specific category")
-    parser.add_argument("-l", "--list", action="store_true",
+    parser.add_argument("-l", "--list",     action="store_true",
                         help="List all available tools and exit")
-    parser.add_argument("-d", "--dry-run", action="store_true",
+    parser.add_argument("-d", "--dry-run",  action="store_true",
                         help="Print install commands without executing them")
-    parser.add_argument("-p", "--preview", action="store_true",
+    parser.add_argument("-p", "--preview",  action="store_true",
                         help="Show exact shell commands that would run, then exit")
-    parser.add_argument("-v", "--verbose", action="store_true",
+    parser.add_argument("-u", "--update",   action="store_true",
+                        help="Sync package index before installing (apt update, pacman -Sy, etc.)")
+    parser.add_argument("-v", "--verbose",  action="store_true",
                         help="Stream live package manager output during install")
     parser.add_argument("-V", "--verify-matrix", action="store_true",
                         help="Print SHA-256 of the tool matrix and exit")
@@ -64,10 +69,7 @@ def cmd_list(pm: str) -> None:
         console.print(f"\n[bold underline]{category}[/bold underline]")
         for t in tools:
             pkg = t.packages.get(pm)
-            if pkg:
-                availability = f"[green]{pkg}[/green]"
-            else:
-                availability = "[dim]not available[/dim]"
+            availability = f"[green]{pkg}[/green]" if pkg else "[dim]not available[/dim]"
             console.print(f"  {t.name:<25} {t.description:<55} {availability}")
 
 
@@ -102,6 +104,20 @@ def cmd_verify_matrix() -> None:
     console.print("[dim]Compare this hash against the published value at github.com/caidensilverstein-svg/Corvus[/dim]")
 
 
+def _resolve_tool_name(name: str) -> Optional[object]:
+    """Return ToolEntry for name, or None. Suggests fuzzy matches on miss."""
+    t = get_tool(name)
+    if t:
+        return t
+    all_names = [t.name for t in get_all_tools()]
+    close = difflib.get_close_matches(name, all_names, n=2, cutoff=0.6)
+    if close:
+        console.print(f"[yellow]Warning:[/yellow] '{name}' not found. Did you mean: [cyan]{', '.join(close)}[/cyan]?")
+    else:
+        console.print(f"[yellow]Warning:[/yellow] '{name}' not found in matrix, skipping")
+    return None
+
+
 def main(argv: Optional[list[str]] = None) -> int:
     parser = build_parser()
     args = parser.parse_args(argv)
@@ -123,7 +139,7 @@ def main(argv: Optional[list[str]] = None) -> int:
     if info.package_manager == "unknown":
         console.print(
             "[bold red]Error:[/bold red] Could not detect a supported package manager "
-            "(apt, pacman, dnf, brew). Aborting."
+            "(apt, pacman, dnf, zypper, brew). Aborting."
         )
         return 1
 
@@ -138,13 +154,7 @@ def main(argv: Optional[list[str]] = None) -> int:
     # Resolve which tools to install
     if args.tools:
         names = [n.strip() for n in args.tools.split(",")]
-        tools = []
-        for name in names:
-            t = get_tool(name)
-            if t is None:
-                console.print(f"[yellow]Warning:[/yellow] '{name}' not found in matrix, skipping")
-            else:
-                tools.append(t)
+        tools = [t for name in names for t in [_resolve_tool_name(name)] if t is not None]
         if not tools:
             console.print("[red]No valid tools specified.[/red]")
             return 1
@@ -153,10 +163,7 @@ def main(argv: Optional[list[str]] = None) -> int:
         tools = by_cat.get(args.category)
         if not tools:
             available = ", ".join(sorted(by_cat.keys()))
-            console.print(
-                f"[red]Category '{args.category}' not found.[/red]\n"
-                f"Available: {available}"
-            )
+            console.print(f"[red]Category '{args.category}' not found.[/red]\nAvailable: {available}")
             return 1
     else:
         tools = get_tools_for_pm(info.package_manager)
@@ -167,6 +174,12 @@ def main(argv: Optional[list[str]] = None) -> int:
 
     if args.dry_run:
         console.print("[bold yellow]Dry run — no packages will be installed.[/bold yellow]")
+
+    # Package index sync: explicit via -u, or auto-silent for apt on real installs
+    if args.update:
+        pm_sync(info.package_manager, verbose=True)
+    elif not args.dry_run and info.package_manager == "apt":
+        pm_sync("apt", verbose=False)
 
     console.print(f"\n[bold]{len(tools)} tool(s) selected.[/bold]")
 
