@@ -2,20 +2,25 @@
 CLI entry point — argument parsing and top-level orchestration.
 """
 
+import hashlib
 import sys
 import argparse
+from pathlib import Path
 from typing import Optional
 
 from rich.console import Console
 from rich.panel import Panel
+from rich.table import Table
 
 from . import __version__
 from .detect import detect, elevate_hint
 from .matrix import get_all_tools, get_tools_for_pm, get_by_category, get_tool
-from .installer import run_install_loop, InstallStatus
+from .installer import run_install_loop, InstallStatus, _build_install_cmd
 from .report import generate
 
 console = Console()
+
+_DATA_FILE = Path(__file__).parent.parent / "data" / "tools.json"
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -26,45 +31,34 @@ def build_parser() -> argparse.ArgumentParser:
         epilog="""
 Examples:
   corvus                        # interactive: install all tools
-  corvus --tools nmap,sqlmap    # install specific tools only
-  corvus --list                 # list all tools in the matrix
-  corvus --dry-run              # show what would be installed
-  corvus --category "Web Application"
+  corvus -t nmap,sqlmap         # install specific tools only
+  corvus -l                     # list all tools in the matrix
+  corvus -d                     # show what would be installed (dry run)
+  corvus -p                     # preview exact commands without running them
+  corvus -c "Web Application"
         """,
     )
-    parser.add_argument(
-        "--version", action="version", version=f"Corvus {__version__}"
-    )
-    parser.add_argument(
-        "--tools",
-        metavar="TOOL[,TOOL...]",
-        help="Comma-separated list of specific tools to install",
-    )
-    parser.add_argument(
-        "--category",
-        metavar="CATEGORY",
-        help="Install only tools in a specific category",
-    )
-    parser.add_argument(
-        "--list",
-        action="store_true",
-        help="List all available tools and exit",
-    )
-    parser.add_argument(
-        "--dry-run",
-        action="store_true",
-        help="Print install commands without executing them",
-    )
-    parser.add_argument(
-        "--no-report",
-        action="store_true",
-        help="Skip writing the report file",
-    )
+    parser.add_argument("--version", action="version", version=f"Corvus {__version__}")
+    parser.add_argument("-t", "--tools", metavar="TOOL[,TOOL...]",
+                        help="Comma-separated list of specific tools to install")
+    parser.add_argument("-c", "--category", metavar="CATEGORY",
+                        help="Install only tools in a specific category")
+    parser.add_argument("-l", "--list", action="store_true",
+                        help="List all available tools and exit")
+    parser.add_argument("-d", "--dry-run", action="store_true",
+                        help="Print install commands without executing them")
+    parser.add_argument("-p", "--preview", action="store_true",
+                        help="Show exact shell commands that would run, then exit")
+    parser.add_argument("-v", "--verbose", action="store_true",
+                        help="Stream live package manager output during install")
+    parser.add_argument("-V", "--verify-matrix", action="store_true",
+                        help="Print SHA-256 of the tool matrix and exit")
+    parser.add_argument("-n", "--no-report", action="store_true",
+                        help="Skip writing the report file")
     return parser
 
 
 def cmd_list(pm: str) -> None:
-    """Print all tools grouped by category, flagging availability for current PM."""
     by_cat = get_by_category()
     for category, tools in by_cat.items():
         console.print(f"\n[bold underline]{category}[/bold underline]")
@@ -77,11 +71,45 @@ def cmd_list(pm: str) -> None:
             console.print(f"  {t.name:<25} {t.description:<55} {availability}")
 
 
+def cmd_preview(tools, pm: str) -> None:
+    table = Table(show_header=True, header_style="bold")
+    table.add_column("Tool", style="cyan", min_width=20)
+    table.add_column("Package", min_width=20)
+    table.add_column("Command", style="dim")
+
+    for t in tools:
+        pkg = t.packages.get(pm)
+        if pkg is None:
+            table.add_row(t.name, "[dim]N/A[/dim]", "[dim]not available for this distro[/dim]")
+        else:
+            cmd = _build_install_cmd(pm, pkg)
+            table.add_row(t.name, pkg, " ".join(cmd))
+
+    console.print()
+    console.print(table)
+    console.print(f"\n[dim]{len(tools)} tool(s). No packages have been installed.[/dim]")
+
+
+def cmd_verify_matrix() -> None:
+    if not _DATA_FILE.exists():
+        console.print(f"[red]Matrix not found:[/red] {_DATA_FILE}")
+        return
+    digest = hashlib.sha256(_DATA_FILE.read_bytes()).hexdigest()
+    tools = get_all_tools()
+    console.print(f"[bold]Matrix:[/bold]  {_DATA_FILE}")
+    console.print(f"[bold]SHA-256:[/bold] {digest}")
+    console.print(f"[bold]Tools:[/bold]   {len(tools)}")
+    console.print("[dim]Compare this hash against the published value at github.com/caidensilverstein-svg/Corvus[/dim]")
+
+
 def main(argv: Optional[list[str]] = None) -> int:
     parser = build_parser()
     args = parser.parse_args(argv)
 
-    # Detect system
+    if args.verify_matrix:
+        cmd_verify_matrix()
+        return 0
+
     info = detect()
 
     console.print(
@@ -133,12 +161,16 @@ def main(argv: Optional[list[str]] = None) -> int:
     else:
         tools = get_tools_for_pm(info.package_manager)
 
+    if args.preview:
+        cmd_preview(tools, info.package_manager)
+        return 0
+
     if args.dry_run:
         console.print("[bold yellow]Dry run — no packages will be installed.[/bold yellow]")
 
     console.print(f"\n[bold]{len(tools)} tool(s) selected.[/bold]")
 
-    results = run_install_loop(tools, info, dry_run=args.dry_run)
+    results = run_install_loop(tools, info, dry_run=args.dry_run, verbose=args.verbose)
 
     if not args.no_report:
         generate(results, info)

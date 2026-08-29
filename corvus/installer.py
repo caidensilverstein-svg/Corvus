@@ -51,14 +51,12 @@ class InstallResult:
 # ── Package manager command builders ────────────────────────────────────────
 
 def _build_install_cmd(pm: str, package: str, replace: bool = False) -> list[str]:
-    """Return the shell command list to install a package."""
     if pm == "apt":
         if replace:
             return _SUDO + ["apt-get", "install", "-y", "--reinstall", package]
         return _SUDO + ["apt-get", "install", "-y", package]
     if pm == "pacman":
         if replace:
-            # --overwrite '*' forces file conflicts to be overwritten
             return _SUDO + ["pacman", "-S", "--noconfirm", "--overwrite", "*", package]
         return _SUDO + ["pacman", "-S", "--noconfirm", package]
     if pm == "dnf":
@@ -69,26 +67,11 @@ def _build_install_cmd(pm: str, package: str, replace: bool = False) -> list[str
 
 
 def _is_conflict_error(stderr: str, pm: str) -> bool:
-    """Heuristically detect dependency conflict output."""
     conflict_signals = {
-        "apt": [
-            "held broken packages",
-            "unmet dependencies",
-            "conflicts with",
-            "dependency problems",
-        ],
-        "pacman": [
-            "conflicting packages",
-            "conflict",
-        ],
-        "dnf": [
-            "conflicts",
-            "protected multilib versions",
-        ],
-        "brew": [
-            "conflicts with",
-            # "already installed" is intentionally excluded — it's a no-op, not a conflict
-        ],
+        "apt": ["held broken packages", "unmet dependencies", "conflicts with", "dependency problems"],
+        "pacman": ["conflicting packages", "conflict"],
+        "dnf": ["conflicts", "protected multilib versions"],
+        "brew": ["conflicts with"],
     }
     signals = conflict_signals.get(pm, [])
     lower = stderr.lower()
@@ -98,10 +81,6 @@ def _is_conflict_error(stderr: str, pm: str) -> bool:
 # ── Conflict resolution prompt ───────────────────────────────────────────────
 
 def _prompt_conflict(tool: str, package: str, stderr: str) -> ConflictChoice:
-    """
-    Display an Ubuntu-style conflict prompt and return the user's choice.
-    Never auto-resolves — always waits for explicit input.
-    """
     console.print()
     console.print(f"[bold yellow]Conflict detected while installing [cyan]{tool}[/cyan][/bold yellow]")
     console.print(f"[dim]{stderr.strip()[-600:]}[/dim]")
@@ -129,11 +108,7 @@ def _prompt_conflict(tool: str, package: str, stderr: str) -> ConflictChoice:
 
 # ── Core install routine ─────────────────────────────────────────────────────
 
-def install_tool(tool: ToolEntry, info: SystemInfo, dry_run: bool = False) -> InstallResult:
-    """
-    Attempt to install a single tool.  Returns an InstallResult.
-    If dry_run=True, prints what would run but does not execute.
-    """
+def install_tool(tool: ToolEntry, info: SystemInfo, dry_run: bool = False, verbose: bool = False) -> InstallResult:
     pm = info.package_manager
     package = tool.packages.get(pm)
 
@@ -150,12 +125,10 @@ def install_tool(tool: ToolEntry, info: SystemInfo, dry_run: bool = False) -> In
         console.print(f"  [dim]dry-run:[/dim] {' '.join(cmd)}")
         return InstallResult(tool=tool.name, package=package, status=InstallStatus.SUCCESS, reason="dry-run")
 
-    # First attempt
-    result = _run_install(tool.name, pm, package, replace=False)
+    result = _run_install(tool.name, pm, package, replace=False, verbose=verbose)
     if result.status == InstallStatus.SUCCESS:
         return result
 
-    # If it's a conflict, ask the user
     if result.status == InstallStatus.FAILED and _is_conflict_error(result.reason, pm):
         choice = _prompt_conflict(tool.name, package, result.reason)
 
@@ -168,53 +141,41 @@ def install_tool(tool: ToolEntry, info: SystemInfo, dry_run: bool = False) -> In
             )
 
         if choice == ConflictChoice.REPLACE:
-            result = _run_install(tool.name, pm, package, replace=True)
+            result = _run_install(tool.name, pm, package, replace=True, verbose=verbose)
             return result
 
     return result
 
 
-def _run_install(tool_name: str, pm: str, package: str, replace: bool) -> InstallResult:
-    """Execute the install command and capture output."""
+def _run_install(tool_name: str, pm: str, package: str, replace: bool, verbose: bool = False) -> InstallResult:
     try:
         cmd = _build_install_cmd(pm, package, replace=replace)
     except ValueError as e:
         return InstallResult(tool=tool_name, package=package, status=InstallStatus.FAILED, reason=str(e))
 
-    # Prevent apt interactive prompts from hanging the subprocess
     env = {**os.environ, "DEBIAN_FRONTEND": "noninteractive"}
 
     try:
-        proc = subprocess.run(
-            cmd,
-            capture_output=True,
-            text=True,
-            timeout=300,  # 5-minute cap per tool
-            env=env,
-        )
+        if verbose:
+            proc = subprocess.run(cmd, timeout=300, env=env, text=True,
+                                  stdout=None, stderr=None)
+            stdout, stderr = "", ""
+        else:
+            proc = subprocess.run(cmd, capture_output=True, text=True, timeout=300, env=env)
+            stdout, stderr = proc.stdout, proc.stderr
     except subprocess.TimeoutExpired:
-        return InstallResult(
-            tool=tool_name,
-            package=package,
-            status=InstallStatus.FAILED,
-            reason="Install timed out after 5 minutes",
-        )
+        return InstallResult(tool=tool_name, package=package, status=InstallStatus.FAILED,
+                             reason="Install timed out after 5 minutes")
     except FileNotFoundError:
-        return InstallResult(
-            tool=tool_name,
-            package=package,
-            status=InstallStatus.FAILED,
-            reason=f"Package manager '{pm}' not found on PATH",
-        )
+        return InstallResult(tool=tool_name, package=package, status=InstallStatus.FAILED,
+                             reason=f"Package manager '{pm}' not found on PATH")
 
     if proc.returncode == 0:
         return InstallResult(tool=tool_name, package=package, status=InstallStatus.SUCCESS)
 
     return InstallResult(
-        tool=tool_name,
-        package=package,
-        status=InstallStatus.FAILED,
-        reason=(proc.stderr or proc.stdout).strip(),
+        tool=tool_name, package=package, status=InstallStatus.FAILED,
+        reason=(stderr or stdout).strip(),
     )
 
 
@@ -224,17 +185,15 @@ def run_install_loop(
     tools: list[ToolEntry],
     info: SystemInfo,
     dry_run: bool = False,
+    verbose: bool = False,
 ) -> list[InstallResult]:
-    """
-    Iterate over tools, print live status, and return all results.
-    """
     results: list[InstallResult] = []
     total = len(tools)
 
     for idx, tool in enumerate(tools, 1):
         console.print(f"\n[bold][[{idx}/{total}]][/bold] Installing [cyan]{tool.name}[/cyan] — {tool.description}")
 
-        result = install_tool(tool, info, dry_run=dry_run)
+        result = install_tool(tool, info, dry_run=dry_run, verbose=verbose)
         results.append(result)
 
         if result.status == InstallStatus.SUCCESS:
