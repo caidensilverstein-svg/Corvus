@@ -1,11 +1,10 @@
-Corvus
+### Corvus
 Copyright 2026 Caiden Silverstein
 
 This product includes software developed by Caiden Silverstein
 (https://github.com/caidensilverstein-svg/Corvus).
 
-
-Third-Party Notices & Data Attribution
+## Third-Party Notices & Data Attribution
 
 This product contains bundled data and utilizes third-party software 
 libraries. The respective notices and licenses for these components 
