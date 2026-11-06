@@ -10,7 +10,7 @@ This product contains bundled data and utilizes third-party software
 libraries. The respective notices and licenses for these components 
 are listed below:
 
-* Kali Linux Tool Matrix (data/tools.json)
+* Kali Linux Tool Matrix (corvus/data/tools.json)
   Tool metadata and descriptions are aggregated and cross-referenced from 
   the Kali Linux Tools Directory (https://www.kali.org/tools/).
   Copyright (c) OffSec Services Limited.
