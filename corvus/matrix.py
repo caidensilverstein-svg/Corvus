@@ -20,7 +20,7 @@ class ToolEntry:
 
 
 # Resolve data/tools.json relative to this file's package root
-_DATA_FILE = Path(__file__).parent.parent / "data" / "tools.json"
+_DATA_FILE = Path(__file__).parent / "data" / "tools.json"
 
 
 def _load() -> list[ToolEntry]:

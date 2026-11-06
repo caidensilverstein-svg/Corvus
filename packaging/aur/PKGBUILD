@@ -1,0 +1,25 @@
+# Maintainer: Caiden Silverstein <caidensilverstein@gmail.com>
+pkgname=corvus-installer
+_name=corvus
+pkgver=0.1.0
+pkgrel=1
+pkgdesc="Cross-distro Kali Linux tool installer"
+arch=('any')
+url="https://github.com/caidensilverstein-svg/Corvus"
+license=('Apache-2.0')
+depends=('python' 'python-rich')
+makedepends=('python-build' 'python-installer' 'python-setuptools' 'python-wheel')
+source=("$pkgname-$pkgver.tar.gz::$url/archive/refs/tags/v$pkgver.tar.gz")
+sha256sums=('SKIP')  # replace with real checksum: run `updpkgsums` after tagging v$pkgver
+
+build() {
+  cd "Corvus-$pkgver"
+  python -m build --wheel --no-isolation
+}
+
+package() {
+  cd "Corvus-$pkgver"
+  python -m installer --destdir="$pkgdir" dist/*.whl
+  install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+  install -Dm644 NOTICE.md "$pkgdir/usr/share/licenses/$pkgname/NOTICE.md"
+}

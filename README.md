@@ -18,6 +18,13 @@ Cross-distro Kali Linux tool installer. Detects your OS and package manager, wal
 curl -fsSL https://raw.githubusercontent.com/caidensilverstein-svg/Corvus/main/install.sh | bash
 ```
 
+Or from a package index:
+
+```bash
+pipx install corvus-installer        # PyPI (installs the `corvus` command)
+yay -S corvus-installer              # AUR (Arch / Manjaro)
+```
+
 Or manually:
 
 ```bash
@@ -62,7 +69,7 @@ corvus -V
 
 The published SHA-256 for each release is in the [Releases](https://github.com/caidensilverstein-svg/Corvus/releases) section. If the hash matches, you have an unmodified matrix.
 
-**What the matrix is:** `data/tools.json` is a static list of tool names scraped from [kali.org/tools](https://www.kali.org/tools/), cross-referenced with each distro's package manager. It is a data file — it is not executed. You can read it directly: `cat ~/.local/corvus/data/tools.json`.
+**What the matrix is:** `corvus/data/tools.json` is a static list of tool names scraped from [kali.org/tools](https://www.kali.org/tools/), cross-referenced with each distro's package manager. It is a data file — it is not executed. You can read it directly: `cat ~/.local/corvus/data/tools.json`.
 
 **Sudo usage:** Corvus runs installs with `sudo` where required. The exact command is always shown upfront via `-p`. When running as root (e.g. inside a container), `sudo` is omitted automatically.
 

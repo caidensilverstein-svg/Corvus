@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "corvus-installer"
+dynamic = ["version"]
+description = "Cross-distro Kali Linux tool installer for apt, pacman, dnf, zypper and brew"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Caiden Silverstein" }]
+keywords = ["kali", "pentest", "security", "installer", "package-manager"]
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: Information Technology",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS",
+    "Programming Language :: Python :: 3",
+    "Topic :: Security",
+    "Topic :: System :: Installation/Setup",
+]
+dependencies = ["rich>=13.0.0"]
+
+[project.urls]
+Homepage = "https://github.com/caidensilverstein-svg/Corvus"
+Issues = "https://github.com/caidensilverstein-svg/Corvus/issues"
+
+[project.scripts]
+corvus = "corvus.cli:main"
+
+[tool.setuptools]
+packages = ["corvus"]
+
+[tool.setuptools.package-data]
+corvus = ["data/tools.json"]
+
+[tool.setuptools.dynamic]
+version = { attr = "corvus.__version__" }

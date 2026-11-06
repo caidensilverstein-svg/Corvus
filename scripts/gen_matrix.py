@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-Generate data/tools.json from kali.org/tools/ + Kali apt Packages index.
+Generate corvus/data/tools.json from kali.org/tools/ + Kali apt Packages index.
 
 Usage:
-    python3 scripts/gen_matrix.py [--out data/tools.json]
+    python3 scripts/gen_matrix.py [--out corvus/data/tools.json]
 
 Requires: requests, beautifulsoup4
     pip install requests beautifulsoup4
@@ -310,7 +310,7 @@ def build_tools_json(tools: list[dict], descriptions: dict[str, str]) -> list[di
 
 def main():
     parser = argparse.ArgumentParser(description="Generate Corvus tools.json from kali.org")
-    parser.add_argument("--out", default="data/tools.json")
+    parser.add_argument("--out", default="corvus/data/tools.json")
     parser.add_argument("--no-apt-descriptions", action="store_true",
                         help="Skip downloading the apt Packages index")
     args = parser.parse_args()

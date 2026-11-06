@@ -21,7 +21,7 @@ from .report import generate
 
 console = Console()
 
-_DATA_FILE = Path(__file__).parent.parent / "data" / "tools.json"
+_DATA_FILE = Path(__file__).parent / "data" / "tools.json"
 
 
 def build_parser() -> argparse.ArgumentParser:
